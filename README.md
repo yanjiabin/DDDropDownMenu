@@ -49,7 +49,4 @@ dependencies {
  //tabs 所有标题，popupViews  所有菜单，contentView 内容
 mDropDownMenu.setDropDownMenu(tabs, popupViews, contentView);
 ```
-如果你要了解更多，可以直接看源码  <a href="https://github.com/dongjunkun/DropDownMenu/blob/master/app/src/main/java/com/yyy/djk/dropdownmenu/MainActivity.java">Example</a>
-
-> 建议拷贝代码到项目中使用，拷贝DropDownMenu.java 以及res下的所有文件即可
 
