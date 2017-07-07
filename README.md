@@ -8,15 +8,6 @@
  - 你可以完全自定义你的菜单样式，我这里只是封装了一些实用的方法，Tab的切换效果，菜单显示隐藏效果等
  - 并非用popupWindow实现，无卡顿
 
-## ScreenShot
-<img src="https://raw.githubusercontent.com/dongjunkun/DropDownMenu/master/art/simple.gif"/>
-
-<a href="https://raw.githubusercontent.com/dongjunkun/DropDownMenu/master/app/build/outputs/apk/app-debug.apk">Download APK</a>
-
-或者扫描二维码
-
-<img src="https://raw.githubusercontent.com/dongjunkun/DropDownMenu/master/art/download.png"/>
-
 ## Gradle Dependency
 
 ```
@@ -28,14 +19,14 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.dongjunkun:DropDownMenu:1.0.4'
+    compile 'com.github.yanjiabin:DDDropDownMenu:1.0'
 }
 ```
 
 ## 使用
 添加DropDownMenu 到你的布局文件，如下
 ```
-<com.yyydjk.library.DropDownMenu
+<com.yanjiabin.droplibrary.DropDownMenu
     android:id="@+id/dropDownMenu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -62,5 +53,3 @@ mDropDownMenu.setDropDownMenu(tabs, popupViews, contentView);
 
 > 建议拷贝代码到项目中使用，拷贝DropDownMenu.java 以及res下的所有文件即可
 
-## 关于我
-简书[dongjunkun](http://www.jianshu.com/users/f07458c1a8f3/latest_articles)
